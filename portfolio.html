@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function hire(){
+            alert("thank you for showing intrest to hire me :😊");
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-5width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id ="Home">
+        <nav>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#skill">Skills </a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+  <section class="HomeText">
+    <p class="welcome">Welcome to my portfolio</p>
+       <h1>Hi, I'm Niraj , a <span>frontend Developer.</span> </h1>
+         <div><button class="view">view project</button>
+            <button onclick=" return hire()" class="hire">Hire me</button>
+         </div>
+  </section>
+  </div>
+  
+  <div id="About">
+      <div class="content-1"> 
+        <img src="images/WhatsApp Image 2025-12-29 at 12.58.41 PM.jpeg">
+
+      </div>
+      <div class="content-2">
+          <p>About Me</p>
+          <p> I am a focoused "BCA" student currently pursuing my bachelor's degree from Nepal College of     Information Technology affiliated to Pokhara University.</p>
+           <div class="tab-titles">
+            <button class="links active"onclick="showSection('Skills', this)">Skills</button>
+            <button id="skill" class="links" onclick="showSection('Experience', this)">Experience</button>
+            <button class="links" onclick="showSection('Education', this)" >Education</button>
+            </div> 
+        <div class="content active" id="Skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+            <li><span>web development</span><br>web app Development</li>
+            <li><span>C Programming</span><br>Basics of c programming</li>
+          </ul>
+        </div>
+          <div class="content" id="Experience">
+            <ul>
+              <li><span>2025/Nov/01 - 2025/Dec/01</span> <br>UI/UX Training at Ncit</li>
+            </ul>
+        </div>
+           <div class="content" id="Education">
+              <ul>
+                <li><span>2023</span><br>Completed 10th from DTHSS Rampur</li>
+                <li><span>2022-2024</span><br>Completed +2 from KMGSS Butwal</li>
+                <li><span>2024-current</span><br>Bca at Ncit</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <div class="myservices">
+    <p>My services</p>
+    <div class="boxes">
+    <div class="box1">
+     <P> <i class="fa-brands fa-html5"></i></P>
+     <br>
+     <p>Web Design</p>
+     <br>
+     <p class="des">Lorem ipsum dolor sit amet consectetur, 
+    <br>adipisicing elit. </p>
+     <p class="learn">Learn more</p>
+    </div>
+    <div class="box2">
+         <P> <i class="fa-brands fa-html5"></i></P>
+     <br>
+     <p>UI/UX Design</p>
+     <br>
+     <p class="des">Lorem ipsum dolor sit amet consectetur, 
+    <br>adipisicing elit. </p>
+     <p class="learn">Learn more</p>
+      
+    </div>
+    <div class="box3">
+         <P> <i class="fa-brands fa-html5"></i></P>
+     <br>
+     <p>Web Design</p>
+     <br>
+     <p class="des">Lorem ipsum dolor sit amet consectetur, 
+     <br>adipisicing elit. </p>
+     <p class="learn">Learn more</p>
+  
+    </div>
+  </div>
+  </div>
+  <div id="Contact">
+    <div class="contact-container">
+     <p class="cont">Contact Me</p>
+      <p> <i class="fa-regular fa-envelope"></i>: nirajkhanal13@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>:+977 9762235825</p>
+         
+        <div class="social">
+          <a href="https://www.facebook.com/laxman.khanal.56232"> <i class="fa-brands fa-facebook"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+         </div>
+            <br>
+          <button class="Download-button">Download cv</button>
+   <div class="form-container"> 
+    <form action="">
+      <input type="text" name="username" id="username" placeholder="enter your Full name"><br>
+      <input type="email" name="email" id="email" placeholder="enter your email"><br>
+      <textarea rows="5" cols="50"></textarea> 
+      <br>
+      <button class="Submit">Submit</button>
+      <button type="reset" class="reset">Reset</button>
+    </form>
+   </div>
+   </div>
+  </div>
+</body>
+</html>
